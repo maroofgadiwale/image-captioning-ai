@@ -25,4 +25,4 @@ iface = gr.Interface(
     title="Image Caption Generator",
     description="Upload an image to generate a caption."
 )
-iface.launch(server_name="127.0.0.1", server_port= 5000,share = True)
+iface.launch(server_name="127.0.0.1", server_port= 5000)
